@@ -1,0 +1,64 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.btn-primary{
+    
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 8px;
+    background: #E55473;
+
+}
+
+.top-banner{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background: rgba(229, 84, 115, 0.10);
+   
+}
+.banner-taitle{
+        Color: #272727;
+        font-size: 80px;
+        font-weight: 800;
+    }
+
+
+.banner-container{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 140px;
+    padding-right: 140px;
+
+    display: flex;
+    justify-content: space-between;
+    gap-: 40px;
+}
+
+.half-width{
+    padding-bottom: 0;
+    width: 50%;
+}
+
+.top-banner-content{
+
+
+}
+
+.top-banner-img {
+    padding-bottom: 0;
+}
+.top-banner-img img{
+    width: 122%;
+}
