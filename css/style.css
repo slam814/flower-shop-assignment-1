@@ -1,64 +1,113 @@
-body{
-    font-family: 'Lato', sans-serif;
-    margin: 0;
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
 }
 
-p{
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
-.btn-primary{
-    
-    color: #FFF;
-    font-family: Lato;
-    font-size: 20px;
-    font-weight: 700;
-    border: 0;
-    border-radius: 8px;
-    background: #E55473;
+.flexible-container{
 
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
 }
-
-.top-banner{
-    margin-bottom: 0;
-    padding-bottom: 0;
-    background: rgba(229, 84, 115, 0.10);
-   
+.heding-2nd {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
 }
-.banner-taitle{
-        Color: #272727;
-        font-size: 80px;
-        font-weight: 800;
-    }
-
-
-.banner-container{
-    margin-bottom: 0;
-    padding-bottom: 0;
-    padding-left: 140px;
-    padding-right: 140px;
-
-    display: flex;
-    justify-content: space-between;
-    gap-: 40px;
+.btn-primary {
+  color: #fff;
+  font-family: Lato;
+  padding: 8px 16px;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 8px;
+  background: #e55473;
 }
 
-.half-width{
-    padding-bottom: 0;
-    width: 50%;
+.top-banner {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background: rgba(229, 84, 115, 0.1);
+}
+.banner-taitle {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
 }
 
-.top-banner-content{
+.banner-container {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-left: 140px;
+  padding-right: 140px;
 
+  display: flex;
+  justify-content: space-between;
+  gap-: 40px;
+}
 
+.half-width {
+  padding-bottom: 0;
+  width: 50%;
+}
+
+.top-banner-content {
 }
 
 .top-banner-img {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
-.top-banner-img img{
-    width: 122%;
+.top-banner-img img {
+  width: 122%;
+}
+
+.our-featured-section {
+  text-align: center;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.hot-dil-section{
+  text-align: center;
+  padding: 50px 140px;
+  border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+}
+
+.instragram-content{
+  text-align: center;
+  padding: 40px 26%;
+}
+.instragram-section-image{
+  margin: 50px 140px;
+}
+.instragram-section-image img {
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 3px 3px 20px gray;
+}
+.latest-deals{
+  margin: 40px 140px;
+  text-align: center;
+  background-image: url(../images/Rectangle\ 9.png);
+  height: 100%;
+  border-radius: 10px;
+}
+.latest-content{
+  padding: 80px 100px;
+}
+
+input {
+  font-size: 20px;
+  padding: 8px 20px;
+  border-radius: 10px;
 }
